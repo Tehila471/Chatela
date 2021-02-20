@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyone Matters</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+             <img src="images/tttt.png" alt="Everyone is important" class="logo">
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ff.jpg" alt="toggle menu" class="menu" id="menu">
+                </a>    
+
+                 <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.png" alt="Exit Menu"></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <img src="images/nnnn.png" alt=" server graphic" class="server">
+            <h1>Love for Everyone</h1>
+            <p class="subhead">Go ahead with letting people know they are all important.</p>
+            <img src="images/--.jpg" alt="scroll down" class="scroll hide-mobile show-desktop">
+            
+        </section>
+
+    </div>
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/ee.png" alt="Calender">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dicta quibusdam tempora laboriosam, sint sapiente, odio velit quos hic atque accusamus ipsum delectus ipsa enim dignissimos corporis nisi adipisci vitae!</p>
+                </li>
+                <li>
+                    <img src="images/55.jpg" alt="Folder">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis harum molestiae tempore, rerum, quis, cupiditate expedita amet accusamus et repudiandae magnam fugit. Doloremque nulla, tempore ipsa reprehenderit deleniti ipsum dolores.</p>
+                </li>
+                <li>
+                    <img src="images/88.jpg" alt="Server">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet rerum libero numquam, voluptatum cumque obcaecati saepe totam sint officia itaque provident doloribus, fugit maxime. Veniam blanditiis obcaecati at modi perspiciatis.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                    <img src="images/ff.jpg" alt="User testimonial picture">
+                    <blockquote>To prosper in all aspects of life and studies!!!</blockquote>
+                    <figcaption>- Tehila T.P. Nampasa</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                    <img src="images/99.jpg" alt="User testimonial picture">
+                    <blockquote>To prosper in all aspects of Art!!!</blockquote>
+                    <figcaption>- Chali G Chibwana</figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Start Your Journey Now!!!</h2>
+        <a href="#" class="cta">Get Started</a>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                <img src="images/xx.jpg" class="logo" alt="Logo">
+                </a>
+                <p class="address">Senanga Road 17 <b> Lusaka <b> Zambia</p>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile')
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile')
+            e.preventDefault();
+        });
+
+    </script>
+
+</body>
+</html>
